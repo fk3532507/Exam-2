@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 86vh;
 }
 header{
     background: black;
@@ -15,7 +15,8 @@ header{
 .banner h1{
     color: #ffffff;
     margin-top: 176px;
-    font-size: 55px;
+    font-weight: 700;
+    font-size: 70px;
 } 
 button.btn.btn-custom {
     color: #fff;
@@ -29,18 +30,19 @@ button.btn.btn-custom {
     margin-top: 100px;
 }
 .bg i{
-    font-size: 20px;
+    font-size: 35px;
 }
 .skateboard{
-    margin-top: 50px;
+    margin-top: 92px;
 }
 .feature-section{
     background-image: url(../images/background.png);
+    background-position: center center;  
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    
     min-height: 80vh;
-    margin-top: 60px;
+    margin-top: 110px;
 }
 .fs h1{
     color: #fff;
@@ -88,7 +90,7 @@ section.feature-option {
 }
 
 footer{
-    height: 300px;
+    height: 305px;
     margin-top: 60px;
     background-color: #000;
 }
@@ -100,9 +102,7 @@ footer{
 .answer{
     margin-top: 20px;
 }
-.answer a{
-list-style: none;
-}
+.answer a{list-style: none;text-decoration: none;}
 .answer a span{
     color: #fff;
 }
@@ -132,5 +132,50 @@ color: #fff;
     margin-top: 75px;
 } 
 .collapse ul li a{
+    color: #fff;
+}
+.bg h1{
+
+font-weight: 700;
+
+font-size: 55px;
+}
+.bg p{
+    
+font-weight: 600;
+    
+text-transform: uppercase;
+    
+font-size: 16px;
+}
+
+.SKATING h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.carousel-control-prev-icon{
+
+}
+.carousel-control-next-icon{
+    
+}
+.collapse ul li a p{
+    color: #fff;
+}
+a.nav-link {
+    padding-top: 5px;
+}
+li {
+    padding: 5px;
+}
+.col-6 p img{
+    width: 10%;
+}
+.col-6 p a{
+    text-decoration: none;
+    list-style: none;
+}
+i.fas.fa-sliders-h.toggle {
     color: #fff;
 }
